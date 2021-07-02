@@ -67,10 +67,12 @@ main {
 /* Sections */
 
 .section-heading {
+  border-bottom: 0.25px solid #B4CDED;
   color: #0D1821;
   font-family: serif;
   font-size: 1.25rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05em;
+  padding-bottom: 0.75em;
 }
 
 .accent {
@@ -90,13 +92,25 @@ section {
 }
 
 .work-experience-date {
+  line-height: 1.5em;
   color: #BFCC94;
   font-style: italic;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.075em;
 }
 
 .work-experience-entry {
   margin: 20px;
+}
+
+.profile {
+  align-items: center;
+  display: flex;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  margin-right: 20px;
+  max-height: 100px;
 }
 </style>
 </head>
@@ -119,14 +133,17 @@ section {
     <!-- BACKGROUND -->
     <section id="background">
       <h3 class="section-heading">Background</h3>
-      <p class="section-content">
-        I have more than 10 years of experience as a lighting designer for 
-        theater, dance, opera, television, events, cruise ships, fashion, 
-        and themed entertainment, during which I combined creative and technical skills 
-        to design, execute, and ensure maintainability for over 100 
-        productions. I am currently studying web development at Fullstack Academy and
-        am excited to apply my unique experiences to the field of computer science.
-      </p>
+      <div class="profile">
+        <img class="profile-picture" src="https://ca.slack-edge.com/T23RAUHSB-U0243JKV4RG-c7df025d65ff-512" alt="Greg profile picture" />
+        <p class="section-content profile-bio">
+          I have more than 10 years of experience as a lighting designer for 
+          theater, dance, opera, television, events, cruise ships, fashion, 
+          and themed entertainment, during which I combined creative and technical skills 
+          to design, execute, and ensure maintainability for over 100 
+          productions. I am currently studying web development at Fullstack Academy and
+          am excited to apply my unique experiences to the field of computer science.
+        </p>
+      </div>
     </section>
     
     <!-- WORK EXPERIENCE -->
@@ -259,10 +276,12 @@ main {
 /* Sections */
 
 .section-heading {
+  border-bottom: 0.25px solid #B4CDED;
   color: #0D1821;
   font-family: serif;
   font-size: 1.25rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05em;
+  padding-bottom: 0.75em;
 }
 
 .accent {
@@ -282,16 +301,26 @@ section {
 }
 
 .work-experience-date {
+  line-height: 1.5em;
   color: #BFCC94;
   font-style: italic;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.075em;
 }
 
 .work-experience-entry {
   margin: 20px;
 }
 
+.profile {
+  align-items: center;
+  display: flex;
+}
 
+.profile-picture {
+  border-radius: 50%;
+  margin-right: 20px;
+  max-height: 100px;
+}
 </script>
 </body>
 </html>
